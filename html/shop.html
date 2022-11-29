@@ -5,64 +5,89 @@
     <meta name="description" content="Pagina web de ropa de marca"/>
     <meta name="keywords" content="Ropa de marca, gucci, prada, hermes, louis vouitton"/>
     <meta name="author" content="Juan Camilo Verjel Rivera, Juan Felipe Echeverria Gomez, Victor Jose Basto Tarazona"/>
-    <link rel="stylesheet" href="./css/style1.css">
-    <title></title>
+    <meta name="author" content="Juan Camilo Verjel Rivera, Juan Felipe Echeverria Gomez, Victor Jose Basto Tarazona"/>
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <title>shop</title>
   </head>
   <body>
+    <div id="container">
     <header>
-      
-      <div class="container">
-        <input type="text" placeholder="Buscar">
-        <div class="btn">
-          <i class="fas fa-search"></i>
-        </div>
-
-
-      </div>
       <div class="banner">
-      <a href="../index.html" class="logo"><h2>WARP</h2></a>
-    </div>
-      <nav>
-        <ul>
-          <li><a href="../html/hombres.html">Hombres</a></li>
-          <li><a href="../html/mujeres.html">Mujeres</a></li>
-          <li><a href="../html/novedades.html">Novedades</a></li>
-        </ul>
-      </nav>
-    <div class="banner container">
-        <i class="fas fa-user"></i>
-        <a href="../html/shop.html">My cart <i class="fas fa-shopping cart"></i></a>
+      <a href="../index.html" class="logo">WARP</a>
+      </div>
 
+    <div class="buscar">
+      <input type="text" placeholder="Buscar" required />
+
+      <div class="btn">
+        <i class="fas fa-search icon"></i>
+      </div>
     </div>
+
+  <div class="">
+    <nav>
+      <ul>
+        <li><a href="../html/hombres.html">Hombres</a></li>
+        <li><a href="../html/mujeres.html">Mujeres</a></li>
+        <li><a href="../html/novedades.html">Novedades</a></li>
+      </ul>
+    </nav>
+  </div>
+<div class="shop">
+  <a href="../html/shop.html"></a><img height="30px" src="./img/icon.png" alt="">
+</div>
+
+
     </header>
-
+</div>
     <main>
 
-    <h2>Carrito de compras</h2>
-    <p>Finaliza tu compra dandole click a comprar</p>
-    <button>COMPRAR</button>
+      <div class="texto">
+        <h2>Carrito de compras</h2>
+        <hr>
+      </div>
+
+
 
     </main>
 
-    <section class="home"></section>
-   
-<footer>
- <ul>
-  <li><a href="https://wa.link/wqj6il">Comuniquese con nosotros</a></li>
-  <li><a href="https://www.instagram.com">Síganos</a></li>
-  <li>© Derechos Reservados 2022 WARP.</li>
- </ul>
+    <section class="home">
+      <article class="article">
+        <div class="final">
+          <p>Finaliza tu compra, dando click en comprar.</p>
+          <div class="boton">
+            <a class="botoncompra"href="https://www.shopify.com/free-trial?term=shopify&adid=565882038719&campaignid=15436644892&branded_enterprise=1&BOID=brand&gclid=EAIaIQobChMI4KT0xvfR-wIVRYVaBR372A2bEAAYASAAEgK1CPD_BwE&cmadid=516586683;cmadvertiserid=10730501;cmcampaignid=26990768;cmplacementid=324494383;cmcreativeid=163722649;cmsiteid=5500011">COMPRAR</a>
+
+          </div>
+
+        </div>
 
 
-</footer>
+      </article>
 
+    </section>
 
-    <script type="text/javascript">
-      window.addEventListener("scroll",function(){})
-        var header = document.querySelector("header");
-        header.classList.toogle("abajo",window.scrollY>0);
-      
+    <footer class="footer">
 
-    </script>
+    <nav id="foot" >
+     <ul>
+       <li><a href="https://wa.link/wqj6il"><h3>Comuniquese con nosotros</h3></a></li>
+       <li><a href="https://www.instagram.com"><h3>Síganos en Instagram</h3></a></li>
+     </ul>
+    </nav>
+
+    <hr>
+
+    <div class="banner2">
+    <a href="../index.html" class="logo">WARP</a>
+    </div>
+
+    <h4>© Derechos Reservados 2022 WARP.</h4>
+
+    </footer>
+
   </body>
 </html>
